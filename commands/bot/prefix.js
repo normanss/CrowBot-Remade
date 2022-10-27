@@ -4,7 +4,7 @@ const { MessageActionRow, MessageButton, MessageMenuOption, MessageMenu } = requ
 
 
 module.exports = {
-    name: 'prefix',
+    name: '+',
     aliases: ["setprefix"],
     run: async (client, message, args, prefix, color) => {
 
